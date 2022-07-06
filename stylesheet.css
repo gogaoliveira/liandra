@@ -1,0 +1,22 @@
+.row{
+    color: brown; 
+}
+h2{
+    color: brown;
+    font-family: 'Caveat', cursive;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+button{
+    border: 0;
+    margin-bottom: 2px;
+}
+.vermelho{
+    background-color: rgb(245, 66, 66);
+    text-decoration: line-through;
+}
+
+.branco{
+    background-color: #fff;
+}
