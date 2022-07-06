@@ -29,6 +29,24 @@ function trocaFundo(){
 
     if (body.classList.contains('fundo3')){
         body.classList.remove('fundo3')
+        body.classList.add('fundo4')
+        return
+    }
+
+    if (body.classList.contains('fundo4')){
+        body.classList.remove('fundo4')
+        body.classList.add('fundo5')
+        return
+    }
+
+    if (body.classList.contains('fundo5')){
+        body.classList.remove('fundo5')
+        body.classList.add('fundo6')
+        return
+    }
+
+    if (body.classList.contains('fundo6')){
+        body.classList.remove('fundo6')
         body.classList.add('fundo1')
         return
     }

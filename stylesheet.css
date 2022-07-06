@@ -27,6 +27,18 @@ body{
     background-image: url('https://i.pinimg.com/originals/f6/2b/a4/f62ba4d5fa1d9d26a1152ef4969980e3.jpg');    
 }
 
+.fundo4{
+    background-image: url('https://birchtree.nyc3.digitaloceanspaces.com/2021/windows_11_phone/Windows_11_9_mattbirchler.jpg');    
+}
+
+.fundo5{
+    background-image: url('https://i.pinimg.com/originals/a5/e6/b8/a5e6b8b5d97f4b6110c4fc4cf30211c5.png');    
+}
+
+.fundo6{
+    background-image: url('https://img.rawpixel.com/private/static/images/website/2022-05/p-396-mckinsey-21a1474-eye.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=6b06933f04518eeb3551c70cccd1e6fb');    
+}
+
 h1{
     font-size: 65px;
     font-family: 'Montserrat', sans-serif;
