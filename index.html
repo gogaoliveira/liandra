@@ -13,12 +13,13 @@
     <div class="container-fluid">
         <div class="row mb-4 mt-5 justify-content-center ">
             <div class="col-12 text-center">
-                <h1 >Horários </h1>
+                <h1 id="sem" class="nohide">Horários </h1>
+                <h1 id="fim" class="hide">Últimos Horários </h1>
                 <h2>da semana</h2>
             </div>
         </div>
         <div class="row align-items-center justify-content-center">
-            <div class="col-md-3 m-1">
+            <div id="hide1" class="col-md-3 m-1 nohide">
                 <div class="row text-center">
                     <h3>Terça-feira</h3>
                 </div>
@@ -32,7 +33,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 m-1">
+            <div id="hide2" class="col-md-3 m-1 nohide">
                 <div class="row text-center">
                     <h3>Quarta-feira</h3>
                 </div>
@@ -46,7 +47,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 m-1">
+            <div id="hide3" class="col-md-3 m-1 nohide">
                 <div class="row text-center">
                     <h3>Quinta-feira</h3>
                 </div>
@@ -119,6 +120,9 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-md-2 text-center">
                 <button class="btnfundo" onclick="trocaFundo()">trocar fundo</button>
+            </div>
+            <div class="col-md-2 text-center">
+                <button class="btnfundo" onclick="escondesemana()">esconder</button>
             </div>
         </div>
     </div>
