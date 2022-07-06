@@ -3,20 +3,22 @@
 }
 h2{
     color: brown;
-    font-family: 'Caveat', cursive;
-    font-family: 'Liu Jian Mao Cao', cursive;
     font-family: 'Nothing You Could Do', cursive;
 }
 
 button{
     border: 0;
     margin-bottom: 2px;
+    font-size: 45px;
 }
 .vermelho{
     background-color: rgb(245, 66, 66);
     text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .branco{
     background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
