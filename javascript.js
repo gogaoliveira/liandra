@@ -10,3 +10,28 @@ function trocacor(d){
     }
     
 }
+
+function trocaFundo(){
+    const body = document.querySelector('#body');
+
+    if (body.classList.contains('fundo1')){
+        
+        body.classList.remove('fundo1')
+        body.classList.add('fundo2')
+        return
+    }
+
+    if (body.classList.contains('fundo2')){
+        body.classList.remove('fundo2')
+        body.classList.add('fundo3')
+        return
+    }
+
+    if (body.classList.contains('fundo3')){
+        body.classList.remove('fundo3')
+        body.classList.add('fundo1')
+        return
+    }
+
+    
+}

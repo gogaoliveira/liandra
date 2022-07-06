@@ -1,6 +1,22 @@
 body{
-    background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/05/white-23.jpg');
-    background-size: auto;
+    background-size: cover;
+}
+
+.btnfundo{
+    background-color: rgb(0, 0, 0, 0.0);
+    font-size: 15px;
+}
+
+.fundo1{
+    background-image: url('https://wallpaperaccess.com/full/4504085.jpg');    
+}
+
+.fundo2{
+    background-image: url('https://wallpapercave.com/wp/wp6549781.jpg');    
+}
+
+.fundo3{
+    background-image: url('https://i.pinimg.com/originals/f6/2b/a4/f62ba4d5fa1d9d26a1152ef4969980e3.jpg');    
 }
 
 h1{
