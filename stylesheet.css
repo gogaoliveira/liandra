@@ -2,24 +2,53 @@ body{
     background-image: url('https://cdn.shopify.com/s/files/1/0157/9972/files/May_1280x2272.png?v=1588082957');
     background-size: auto;
 }
+
 h1{
     font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.0;
 }
+
 h2{
     color: brown;
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 55px
+    font-size: 55px;
+    line-height: 0.5;
 }
+
 h3{
     color: brown;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
+
+h4{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h5{
+    font-size: 35px;
+    background-color: brown;
+    color: #FFF;
+    border: 1px solid brown;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
 button{
     border: 0;
     margin-bottom: 2px;
     font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
+
 .vermelho{
-    background-color: rgb(245, 66, 66);
+    background-color: rgb(244, 90, 90);
     text-decoration: line-through;
     font-family: 'Montserrat', sans-serif;
 }
