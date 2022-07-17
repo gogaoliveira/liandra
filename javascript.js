@@ -14,14 +14,23 @@ function trocacor(d){
 }
 
 function inserirData(){
-    const data = new Date(document.querySelector('#data').value)
+    Date.prototype.addDays = function(days) {
+        var date = new Date(this.valueOf());
+        date.setDate(date.getDate() + days);
+        return date;
+    }
+    var date = []
     let day = []
     let month = []
-    
     for (let index = 1; index < 6; index++) {
-        day[index] = data.getDate() + index
-        month[index] = data.getMonth() + 1 < 10 ? '0' + (data.getMonth() + 1) : data.getMonth() + 1
-        console.log(index)
+        date[index] = new Date(document.querySelector('#data').value);
+        date[index] = date[index].addDays(index);
+
+        day[index] = date[index].getDate() < 10 ? '0' + date[index].getDate() : date[index].getDate();
+        month[index] = (date[index].getMonth() + 1) < 10 ? '0' + (date[index].getMonth() + 1) : (date[index].getMonth() + 1);
+        console.log(date[index]);
+        console.log(day[index]);
+        console.log(month[index]);
     }
 
     const data_ter = document.querySelector('.data_ter')
@@ -34,6 +43,30 @@ function inserirData(){
     data_qui.textContent = day[3] + '/' + month[3]
     data_sex.textContent = day[4] + '/' + month[4]
     data_sab.textContent = day[5] + '/' + month[5]
+
+    
+
+
+    /*const data = new Date(document.querySelector('#data').value)
+    let day = []
+    let month = []
+    
+    for (let index = 1; index < 6; index++) {
+        day[index] = data.getDate() + index
+        month[index] = data.getMonth() + index < 10 ? '0' + (data.getMonth() + index) : data.getMonth() + index
+        console.log(index)
+    }
+
+    const data_ter = document.querySelector('.data_ter')
+    const data_qua = document.querySelector('.data_qua')
+    const data_qui = document.querySelector('.data_qui')
+    const data_sex = document.querySelector('.data_sex')
+    const data_sab = document.querySelector('.data_sab')
+    data_ter.textContent = day[1] + '/' + month[1]
+    data_qua.textContent = day[2] + '/' + month[2]
+    data_qui.textContent = day[3] + '/' + month[3]
+    data_sex.textContent = day[4] + '/' + month[4]
+    data_sab.textContent = day[5] + '/' + month[5]*/
 }
 
 
