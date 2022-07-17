@@ -8,8 +8,35 @@ function trocacor(d){
         btn.classList.remove('vermelho')
         btn.classList.add('branco')
     }
+
+    
     
 }
+
+function inserirData(){
+    const data = new Date(document.querySelector('#data').value)
+    let day = []
+    let month = []
+    
+    for (let index = 1; index < 6; index++) {
+        day[index] = data.getDate() + index
+        month[index] = data.getMonth() + 1 < 10 ? '0' + (data.getMonth() + 1) : data.getMonth() + 1
+        console.log(index)
+    }
+
+    const data_ter = document.querySelector('.data_ter')
+    const data_qua = document.querySelector('.data_qua')
+    const data_qui = document.querySelector('.data_qui')
+    const data_sex = document.querySelector('.data_sex')
+    const data_sab = document.querySelector('.data_sab')
+    data_ter.textContent = day[1] + '/' + month[1]
+    data_qua.textContent = day[2] + '/' + month[2]
+    data_qui.textContent = day[3] + '/' + month[3]
+    data_sex.textContent = day[4] + '/' + month[4]
+    data_sab.textContent = day[5] + '/' + month[5]
+}
+
+
 
 function trocaFundo(){
     const body = document.querySelector('#body');
@@ -92,3 +119,4 @@ function escondesemana(){
     }
     
 }
+

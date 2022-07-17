@@ -21,7 +21,7 @@
         <div class="row align-items-center justify-content-center">
             <div id="hide1" class="col-md-3 m-1 nohide">
                 <div class="row text-center">
-                    <h3>Terça-feira</h3>
+                    <h3>Terça-feira <strong class="data_ter"></strong></h3>
                 </div>
                 <div class="row ">
                     <ul class="list-group pb-2">
@@ -35,7 +35,7 @@
             </div>
             <div id="hide2" class="col-md-3 m-1 nohide">
                 <div class="row text-center">
-                    <h3>Quarta-feira</h3>
+                    <h3>Quarta-feira <strong class="data_qua"></strong></h3>
                 </div>
                 <div class="row ">
                     <ul class="list-group pb-2">
@@ -49,7 +49,7 @@
             </div>
             <div id="hide3" class="col-md-3 m-1 nohide">
                 <div class="row text-center">
-                    <h3>Quinta-feira</h3>
+                    <h3>Quinta-feira <strong class="data_qui"></strong></h3>
                 </div>
                 <div class="row ">
                     <ul class="list-group pb-2">
@@ -68,7 +68,7 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-md-3 m-1">
                 <div class="row text-center">
-                    <h3>Sexta-feira</h3>
+                    <h3>Sexta-feira <strong class="data_sex"></strong></h3>
                 </div>
                 <div class="row ">
                     <ul class="list-group pb-2">
@@ -85,7 +85,7 @@
             </div>
             <div class="col-md-3 m-1">
                 <div class="row text-center">
-                    <h3>Sábado</h3>
+                    <h3>Sábado <strong class="data_sab"></strong></h3>
                 </div>
                 <div class="row  ">
                     <ul class="list-group pb-2">
@@ -123,6 +123,12 @@
             </div>
             <div class="col-md-2 text-center">
                 <button class="btnfundo" onclick="escondesemana()">esconder</button>
+            </div>
+            <div class="col-md-2 text-center">
+                <button class="btnfundo" onclick="inserirData()">Data</button>
+            </div>
+            <div class="col-md-2 text-center">
+                <input type="date" class="btnfundo" id="data">
             </div>
         </div>
     </div>
